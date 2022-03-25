@@ -1,5 +1,6 @@
 import React from "react";
 
+import Table from "../../components/Table";
 import TEMP_DATA from "./temp";
 
 const BLOCK_TABLE_COLUMNS: { field: string; name: string }[] = [
@@ -14,7 +15,7 @@ const BLOCK_TABLE_COLUMNS: { field: string; name: string }[] = [
 ];
 
 const Blocks: React.FC = () => {
-  return <></>;
+  return <Table columns={BLOCK_TABLE_COLUMNS} data={TEMP_DATA} />;
 };
 
 export default Blocks;
