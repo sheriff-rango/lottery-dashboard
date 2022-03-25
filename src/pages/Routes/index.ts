@@ -13,6 +13,11 @@ const Routes: routeItem[] = [
     component: Blocks,
   },
   {
+    title: "Results",
+    url: "/results",
+    component: Blocks,
+  },
+  {
     title: "Balances",
     url: "/balances",
     component: Blocks,

@@ -10,6 +10,7 @@ const Main: React.FC = () => {
       <Switch>
         {Routes.map((route, index) => (
           <Route
+            key={index}
             exact
             path={route.url}
             render={() => (
